@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+
+.guestsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guestsTable {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.guestsTable_data:nth-child(odd) {
+  background-color: #d6eeee;
+}
+
+.guestsTable_data:hover {
+  background-color: lightcyan;
+}
